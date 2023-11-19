@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F50792332B0A6714006A4C7B /* CryptoGekoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50792322B0A6714006A4C7B /* CryptoGekoApp.swift */; };
+		F50792352B0A6714006A4C7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50792342B0A6714006A4C7B /* ContentView.swift */; };
+		F50792372B0A6716006A4C7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F50792362B0A6716006A4C7B /* Assets.xcassets */; };
+		F507923A2B0A6716006A4C7B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F50792392B0A6716006A4C7B /* Preview Assets.xcassets */; };
+		F50792442B0A6717006A4C7B /* CryptoGekoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50792432B0A6717006A4C7B /* CryptoGekoTests.swift */; };
+		F507924E2B0A6717006A4C7B /* CryptoGekoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F507924D2B0A6717006A4C7B /* CryptoGekoUITests.swift */; };
+		F50792502B0A6717006A4C7B /* CryptoGekoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F507924F2B0A6717006A4C7B /* CryptoGekoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F50792402B0A6717006A4C7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F50792272B0A6713006A4C7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F507922E2B0A6713006A4C7B;
+			remoteInfo = CryptoGeko;
+		};
+		F507924A2B0A6717006A4C7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F50792272B0A6713006A4C7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F507922E2B0A6713006A4C7B;
+			remoteInfo = CryptoGeko;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F507922F2B0A6713006A4C7B /* CryptoGeko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoGeko.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F50792322B0A6714006A4C7B /* CryptoGekoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoGekoApp.swift; sourceTree = "<group>"; };
+		F50792342B0A6714006A4C7B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F50792362B0A6716006A4C7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F50792392B0A6716006A4C7B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F507923F2B0A6717006A4C7B /* CryptoGekoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoGekoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F50792432B0A6717006A4C7B /* CryptoGekoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoGekoTests.swift; sourceTree = "<group>"; };
+		F50792492B0A6717006A4C7B /* CryptoGekoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoGekoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F507924D2B0A6717006A4C7B /* CryptoGekoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoGekoUITests.swift; sourceTree = "<group>"; };
+		F507924F2B0A6717006A4C7B /* CryptoGekoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoGekoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F507922C2B0A6713006A4C7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F507923C2B0A6717006A4C7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F50792462B0A6717006A4C7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F50792262B0A6713006A4C7B = {
+			isa = PBXGroup;
+			children = (
+				F50792312B0A6714006A4C7B /* CryptoGeko */,
+				F50792422B0A6717006A4C7B /* CryptoGekoTests */,
+				F507924C2B0A6717006A4C7B /* CryptoGekoUITests */,
+				F50792302B0A6713006A4C7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F50792302B0A6713006A4C7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F507922F2B0A6713006A4C7B /* CryptoGeko.app */,
+				F507923F2B0A6717006A4C7B /* CryptoGekoTests.xctest */,
+				F50792492B0A6717006A4C7B /* CryptoGekoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F50792312B0A6714006A4C7B /* CryptoGeko */ = {
+			isa = PBXGroup;
+			children = (
+				F50792322B0A6714006A4C7B /* CryptoGekoApp.swift */,
+				F50792342B0A6714006A4C7B /* ContentView.swift */,
+				F50792362B0A6716006A4C7B /* Assets.xcassets */,
+				F50792382B0A6716006A4C7B /* Preview Content */,
+			);
+			path = CryptoGeko;
+			sourceTree = "<group>";
+		};
+		F50792382B0A6716006A4C7B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F50792392B0A6716006A4C7B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F50792422B0A6717006A4C7B /* CryptoGekoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F50792432B0A6717006A4C7B /* CryptoGekoTests.swift */,
+			);
+			path = CryptoGekoTests;
+			sourceTree = "<group>";
+		};
+		F507924C2B0A6717006A4C7B /* CryptoGekoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F507924D2B0A6717006A4C7B /* CryptoGekoUITests.swift */,
+				F507924F2B0A6717006A4C7B /* CryptoGekoUITestsLaunchTests.swift */,
+			);
+			path = CryptoGekoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F507922E2B0A6713006A4C7B /* CryptoGeko */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F50792532B0A6717006A4C7B /* Build configuration list for PBXNativeTarget "CryptoGeko" */;
+			buildPhases = (
+				F507922B2B0A6713006A4C7B /* Sources */,
+				F507922C2B0A6713006A4C7B /* Frameworks */,
+				F507922D2B0A6713006A4C7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CryptoGeko;
+			productName = CryptoGeko;
+			productReference = F507922F2B0A6713006A4C7B /* CryptoGeko.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F507923E2B0A6717006A4C7B /* CryptoGekoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F50792562B0A6717006A4C7B /* Build configuration list for PBXNativeTarget "CryptoGekoTests" */;
+			buildPhases = (
+				F507923B2B0A6717006A4C7B /* Sources */,
+				F507923C2B0A6717006A4C7B /* Frameworks */,
+				F507923D2B0A6717006A4C7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F50792412B0A6717006A4C7B /* PBXTargetDependency */,
+			);
+			name = CryptoGekoTests;
+			productName = CryptoGekoTests;
+			productReference = F507923F2B0A6717006A4C7B /* CryptoGekoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F50792482B0A6717006A4C7B /* CryptoGekoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F50792592B0A6717006A4C7B /* Build configuration list for PBXNativeTarget "CryptoGekoUITests" */;
+			buildPhases = (
+				F50792452B0A6717006A4C7B /* Sources */,
+				F50792462B0A6717006A4C7B /* Frameworks */,
+				F50792472B0A6717006A4C7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F507924B2B0A6717006A4C7B /* PBXTargetDependency */,
+			);
+			name = CryptoGekoUITests;
+			productName = CryptoGekoUITests;
+			productReference = F50792492B0A6717006A4C7B /* CryptoGekoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F50792272B0A6713006A4C7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					F507922E2B0A6713006A4C7B = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					F507923E2B0A6717006A4C7B = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = F507922E2B0A6713006A4C7B;
+					};
+					F50792482B0A6717006A4C7B = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = F507922E2B0A6713006A4C7B;
+					};
+				};
+			};
+			buildConfigurationList = F507922A2B0A6713006A4C7B /* Build configuration list for PBXProject "CryptoGeko" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F50792262B0A6713006A4C7B;
+			productRefGroup = F50792302B0A6713006A4C7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F507922E2B0A6713006A4C7B /* CryptoGeko */,
+				F507923E2B0A6717006A4C7B /* CryptoGekoTests */,
+				F50792482B0A6717006A4C7B /* CryptoGekoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F507922D2B0A6713006A4C7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F507923A2B0A6716006A4C7B /* Preview Assets.xcassets in Resources */,
+				F50792372B0A6716006A4C7B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F507923D2B0A6717006A4C7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F50792472B0A6717006A4C7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F507922B2B0A6713006A4C7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F50792352B0A6714006A4C7B /* ContentView.swift in Sources */,
+				F50792332B0A6714006A4C7B /* CryptoGekoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F507923B2B0A6717006A4C7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F50792442B0A6717006A4C7B /* CryptoGekoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F50792452B0A6717006A4C7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F507924E2B0A6717006A4C7B /* CryptoGekoUITests.swift in Sources */,
+				F50792502B0A6717006A4C7B /* CryptoGekoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F50792412B0A6717006A4C7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F507922E2B0A6713006A4C7B /* CryptoGeko */;
+			targetProxy = F50792402B0A6717006A4C7B /* PBXContainerItemProxy */;
+		};
+		F507924B2B0A6717006A4C7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F507922E2B0A6713006A4C7B /* CryptoGeko */;
+			targetProxy = F507924A2B0A6717006A4C7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F50792512B0A6717006A4C7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F50792522B0A6717006A4C7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F50792542B0A6717006A4C7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CryptoGeko/Preview Content\"";
+				DEVELOPMENT_TEAM = B97JTSGWZ2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shibuyaxpress.CryptoGeko;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F50792552B0A6717006A4C7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CryptoGeko/Preview Content\"";
+				DEVELOPMENT_TEAM = B97JTSGWZ2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shibuyaxpress.CryptoGeko;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F50792572B0A6717006A4C7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B97JTSGWZ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shibuyaxpress.CryptoGekoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoGeko.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CryptoGeko";
+			};
+			name = Debug;
+		};
+		F50792582B0A6717006A4C7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B97JTSGWZ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shibuyaxpress.CryptoGekoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoGeko.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CryptoGeko";
+			};
+			name = Release;
+		};
+		F507925A2B0A6717006A4C7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B97JTSGWZ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shibuyaxpress.CryptoGekoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CryptoGeko;
+			};
+			name = Debug;
+		};
+		F507925B2B0A6717006A4C7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B97JTSGWZ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shibuyaxpress.CryptoGekoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CryptoGeko;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F507922A2B0A6713006A4C7B /* Build configuration list for PBXProject "CryptoGeko" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F50792512B0A6717006A4C7B /* Debug */,
+				F50792522B0A6717006A4C7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F50792532B0A6717006A4C7B /* Build configuration list for PBXNativeTarget "CryptoGeko" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F50792542B0A6717006A4C7B /* Debug */,
+				F50792552B0A6717006A4C7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F50792562B0A6717006A4C7B /* Build configuration list for PBXNativeTarget "CryptoGekoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F50792572B0A6717006A4C7B /* Debug */,
+				F50792582B0A6717006A4C7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F50792592B0A6717006A4C7B /* Build configuration list for PBXNativeTarget "CryptoGekoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F507925A2B0A6717006A4C7B /* Debug */,
+				F507925B2B0A6717006A4C7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F50792272B0A6713006A4C7B /* Project object */;
+}
