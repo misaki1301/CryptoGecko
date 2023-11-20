@@ -6,11 +6,52 @@
 //
 
 import SwiftUI
+import Combine
+import MountainViewUI
 
 struct SearchCoinView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
+	
+	@ObservedObject private var viewModel = SearchCoinViewModel()
+	
+	var body: some View {
+		VStack {
+			VStack {
+				Text("Buscador")
+				TextField("Ingrese un nombre de una moneda", text: $viewModel.searchText)
+			}
+			.padding(.horizontal, 32)
+			.textFieldStyle(.roundedBorder)
+			if viewModel.isLoading {
+				VStack {
+					ProgressView()
+					Text("Searching across the globe...")
+				}.frame(maxHeight: .infinity)
+			} else {
+				List(viewModel.coinList) { coin in
+					MountainCardView(padding: 12) {
+						HStack {
+							AsyncImage(url: URL(string: coin.thumb)) { image in
+								image.resizable()
+									.frame(width: 24, height: 24)
+							} placeholder: {
+								ProgressView()
+							}
+							
+							Text("\(coin.name)")
+							Spacer()
+							if let marketCapRank = coin.marketCapRank {
+								Text("#\(marketCapRank)")
+							} else {
+								Text("Uknown Rank")
+							}
+						}
+					}.listRowSeparator(.hidden)
+				}.listStyle(.plain)
+					
+			}
+			
+		}
+	}
 }
 
 #Preview {

@@ -14,6 +14,16 @@
 		F50792442B0A6717006A4C7B /* CryptoGekoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50792432B0A6717006A4C7B /* CryptoGekoTests.swift */; };
 		F507924E2B0A6717006A4C7B /* CryptoGekoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F507924D2B0A6717006A4C7B /* CryptoGekoUITests.swift */; };
 		F50792502B0A6717006A4C7B /* CryptoGekoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F507924F2B0A6717006A4C7B /* CryptoGekoUITestsLaunchTests.swift */; };
+		F507925D2B0A6C4B006A4C7B /* CoinGeckoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F507925C2B0A6C4B006A4C7B /* CoinGeckoService.swift */; };
+		F50792652B0A72B5006A4C7B /* PingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50792642B0A72B5006A4C7B /* PingViewModel.swift */; };
+		F50792682B0A744E006A4C7B /* PingMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50792672B0A744E006A4C7B /* PingMessageView.swift */; };
+		F507926B2B0A77AC006A4C7B /* MountainViewUI in Frameworks */ = {isa = PBXBuildFile; productRef = F507926A2B0A77AC006A4C7B /* MountainViewUI */; };
+		F59790672B0B4CFA007BE0B2 /* CoinMarket.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59790662B0B4CFA007BE0B2 /* CoinMarket.swift */; };
+		F597906A2B0B51B6007BE0B2 /* FavoriteCoinsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59790692B0B51B6007BE0B2 /* FavoriteCoinsView.swift */; };
+		F597906C2B0B5305007BE0B2 /* FavoriteCoinsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F597906B2B0B5305007BE0B2 /* FavoriteCoinsViewModel.swift */; };
+		F5AC586C2B0AFC0100B54DE0 /* SearchCoinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AC586B2B0AFC0100B54DE0 /* SearchCoinView.swift */; };
+		F5AC586E2B0AFC5F00B54DE0 /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AC586D2B0AFC5F00B54DE0 /* Coin.swift */; };
+		F5AC58702B0B00D700B54DE0 /* SearchCoinViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AC586F2B0B00D700B54DE0 /* SearchCoinViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +54,15 @@
 		F50792492B0A6717006A4C7B /* CryptoGekoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoGekoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F507924D2B0A6717006A4C7B /* CryptoGekoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoGekoUITests.swift; sourceTree = "<group>"; };
 		F507924F2B0A6717006A4C7B /* CryptoGekoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoGekoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F507925C2B0A6C4B006A4C7B /* CoinGeckoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinGeckoService.swift; sourceTree = "<group>"; };
+		F50792642B0A72B5006A4C7B /* PingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingViewModel.swift; sourceTree = "<group>"; };
+		F50792672B0A744E006A4C7B /* PingMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingMessageView.swift; sourceTree = "<group>"; };
+		F59790662B0B4CFA007BE0B2 /* CoinMarket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinMarket.swift; sourceTree = "<group>"; };
+		F59790692B0B51B6007BE0B2 /* FavoriteCoinsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCoinsView.swift; sourceTree = "<group>"; };
+		F597906B2B0B5305007BE0B2 /* FavoriteCoinsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCoinsViewModel.swift; sourceTree = "<group>"; };
+		F5AC586B2B0AFC0100B54DE0 /* SearchCoinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCoinView.swift; sourceTree = "<group>"; };
+		F5AC586D2B0AFC5F00B54DE0 /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
+		F5AC586F2B0B00D700B54DE0 /* SearchCoinViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCoinViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F507926B2B0A77AC006A4C7B /* MountainViewUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,8 +114,12 @@
 		F50792312B0A6714006A4C7B /* CryptoGeko */ = {
 			isa = PBXGroup;
 			children = (
-				F50792322B0A6714006A4C7B /* CryptoGekoApp.swift */,
-				F50792342B0A6714006A4C7B /* ContentView.swift */,
+				F50792622B0A6CFE006A4C7B /* Core */,
+				F50792612B0A6CF4006A4C7B /* Models */,
+				F50792602B0A6CEA006A4C7B /* Views */,
+				F50792632B0A6E03006A4C7B /* ViewModels */,
+				F507925F2B0A6CE2006A4C7B /* Components */,
+				F507925E2B0A6C58006A4C7B /* Services */,
 				F50792362B0A6716006A4C7B /* Assets.xcassets */,
 				F50792382B0A6716006A4C7B /* Preview Content */,
 			);
@@ -127,6 +151,83 @@
 			path = CryptoGekoUITests;
 			sourceTree = "<group>";
 		};
+		F507925E2B0A6C58006A4C7B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F507925C2B0A6C4B006A4C7B /* CoinGeckoService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F507925F2B0A6CE2006A4C7B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F50792602B0A6CEA006A4C7B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F59790682B0B518B007BE0B2 /* FavoriteCoins */,
+				F5AC586A2B0AFBE900B54DE0 /* SearchCoin */,
+				F50792662B0A743F006A4C7B /* PingMessage */,
+				F50792342B0A6714006A4C7B /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F50792612B0A6CF4006A4C7B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F5AC586D2B0AFC5F00B54DE0 /* Coin.swift */,
+				F59790662B0B4CFA007BE0B2 /* CoinMarket.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F50792622B0A6CFE006A4C7B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F50792322B0A6714006A4C7B /* CryptoGekoApp.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		F50792632B0A6E03006A4C7B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F50792642B0A72B5006A4C7B /* PingViewModel.swift */,
+				F5AC586F2B0B00D700B54DE0 /* SearchCoinViewModel.swift */,
+				F597906B2B0B5305007BE0B2 /* FavoriteCoinsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F50792662B0A743F006A4C7B /* PingMessage */ = {
+			isa = PBXGroup;
+			children = (
+				F50792672B0A744E006A4C7B /* PingMessageView.swift */,
+			);
+			path = PingMessage;
+			sourceTree = "<group>";
+		};
+		F59790682B0B518B007BE0B2 /* FavoriteCoins */ = {
+			isa = PBXGroup;
+			children = (
+				F59790692B0B51B6007BE0B2 /* FavoriteCoinsView.swift */,
+			);
+			path = FavoriteCoins;
+			sourceTree = "<group>";
+		};
+		F5AC586A2B0AFBE900B54DE0 /* SearchCoin */ = {
+			isa = PBXGroup;
+			children = (
+				F5AC586B2B0AFC0100B54DE0 /* SearchCoinView.swift */,
+			);
+			path = SearchCoin;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +244,9 @@
 			dependencies = (
 			);
 			name = CryptoGeko;
+			packageProductDependencies = (
+				F507926A2B0A77AC006A4C7B /* MountainViewUI */,
+			);
 			productName = CryptoGeko;
 			productReference = F507922F2B0A6713006A4C7B /* CryptoGeko.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +319,9 @@
 				Base,
 			);
 			mainGroup = F50792262B0A6713006A4C7B;
+			packageReferences = (
+				F50792692B0A77AC006A4C7B /* XCRemoteSwiftPackageReference "MountainViewUI" */,
+			);
 			productRefGroup = F50792302B0A6713006A4C7B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +364,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F50792682B0A744E006A4C7B /* PingMessageView.swift in Sources */,
+				F597906C2B0B5305007BE0B2 /* FavoriteCoinsViewModel.swift in Sources */,
+				F50792652B0A72B5006A4C7B /* PingViewModel.swift in Sources */,
 				F50792352B0A6714006A4C7B /* ContentView.swift in Sources */,
+				F5AC586C2B0AFC0100B54DE0 /* SearchCoinView.swift in Sources */,
+				F507925D2B0A6C4B006A4C7B /* CoinGeckoService.swift in Sources */,
+				F597906A2B0B51B6007BE0B2 /* FavoriteCoinsView.swift in Sources */,
 				F50792332B0A6714006A4C7B /* CryptoGekoApp.swift in Sources */,
+				F59790672B0B4CFA007BE0B2 /* CoinMarket.swift in Sources */,
+				F5AC586E2B0AFC5F00B54DE0 /* Coin.swift in Sources */,
+				F5AC58702B0B00D700B54DE0 /* SearchCoinViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,6 +704,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F50792692B0A77AC006A4C7B /* XCRemoteSwiftPackageReference "MountainViewUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/misaki1301/MountainViewUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F507926A2B0A77AC006A4C7B /* MountainViewUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F50792692B0A77AC006A4C7B /* XCRemoteSwiftPackageReference "MountainViewUI" */;
+			productName = MountainViewUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F50792272B0A6713006A4C7B /* Project object */;
 }

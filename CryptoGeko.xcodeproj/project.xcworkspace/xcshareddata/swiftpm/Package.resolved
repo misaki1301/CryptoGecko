@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "mountainviewui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/misaki1301/MountainViewUI",
+      "state" : {
+        "revision" : "36c7735dc1dac0d230aa5e8ef84257f48aa185da",
+        "version" : "0.2.2"
+      }
+    }
+  ],
+  "version" : 2
+}
