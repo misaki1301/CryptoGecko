@@ -10,6 +10,8 @@ import SwiftUI
 
 struct PingMessageView: View {
     @ObservedObject private var viewModel = PingViewModel()
+	
+	@State var showing = false
 
     var body: some View {
         VStack {
@@ -25,6 +27,12 @@ struct PingMessageView: View {
 			MountainViewButton(text: "Test Push Notification", action: {
 				askNotificationPermission()
 			}, buttonStyle: MountainButtonStyle())
+			MountainViewButton(text: "Sheet", action: {showing.toggle()}, buttonStyle: MountainButtonStyle())
+				.sheet(isPresented: $showing) {
+					Text("Pacman")
+						.presentationDetents([.height(300)])
+				}
+				
         }
     }
 

@@ -10,7 +10,8 @@ import SwiftUI
 @main
 struct CryptoGekoApp: App {
 	
-	@UIApplicationDelegateAdaptor private var appDelegate: AppDelegate
+	@UIApplicationDelegateAdaptor 
+	private var appDelegate: AppDelegate
 	
     var body: some Scene {
         WindowGroup {
