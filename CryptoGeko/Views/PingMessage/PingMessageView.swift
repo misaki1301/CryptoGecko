@@ -16,6 +16,8 @@ struct PingMessageView: View {
     var body: some View {
         VStack {
             Text("El mensaje")
+			Text("Android")
+				.font(.MountainView.fixed(.bold, size: 18))
             if viewModel.isLoading {
                 ProgressView()
             } else {
